@@ -23,7 +23,7 @@ class _MyHomePageState extends State<MyHomePage> {
       _isLoading = true;
     });
     await Future.delayed(const Duration(seconds: 2));
-    final url = Uri.parse('https://rickandmortyapi.com/api/character/1');
+    final url = Uri.parse('https://pokeapi.co/api/v2/pokemon/');
     final response = await http.get(url);
     final decodedResponse = jsonDecode(response.body);
     print(response.statusCode);
