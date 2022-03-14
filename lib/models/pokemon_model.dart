@@ -1,5 +1,5 @@
 class PokemonModel {
-  final int id;
+  final int? id;
   final String name;
   // final String height;
   // final String isDefault;
