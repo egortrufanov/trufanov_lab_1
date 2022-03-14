@@ -1,11 +1,11 @@
 class PokemonModel {
   final int? id;
   final String name;
-  // final String height;
+  // final int? height;
   // final String isDefault;
   // final String order;
   // final String weight;
-  // final String sprite;
+  // final String? sprite;
 
   PokemonModel({
     required this.id,

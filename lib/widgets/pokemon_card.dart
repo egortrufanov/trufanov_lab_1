@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class PokemonCard extends StatelessWidget {
   final String name;
-  // final String height;
+  // final int? height;
   // final String isDefault;
   // final String order;
   // final String weight;
@@ -34,7 +34,7 @@ class PokemonCard extends StatelessWidget {
             const SizedBox(height: 8),
             Text(name),
             const SizedBox(height: 8),
-            // Text(height),
+            // Text(height.toString()),
             // const SizedBox(height: 8),
             // Text(isDefault),
             // const SizedBox(height: 8),
